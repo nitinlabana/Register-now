@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(115, 100, 132);
+}
+
+
+
+.text{
+  width: 250px;
+  height: 380px;
+  background: rgb(29, 33, 70);
+  position: absolute;
+  top: 130px;
+  left: 450px;
+
+  box-shadow: 1px 5px;
+  border-bottom-left-radius: 15px;
+  
+  /* border-radius: 10px; */
+  padding: 25px;
+}
+.text h2 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  margin-top: 30px;
+ }
+ .text p {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+
+ }
+ .text h4 {
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  margin-top: 25px;
+ }
+ .text.photo{
+  width: 90px;
+  height: 90px;
+ }
+ .text img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
+ }
+ .text h3{
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+ }
+ .text h5 {
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  margin-top: 6px;
+ }
+ .form {
+  width: 250px;
+  height: 380px;
+  background: white;
+  position: absolute;
+  box-shadow: 1px 5px;
+
+  top: 130px;
+  left: 750px;
+  padding: 25px;
+  border-bottom-right-radius: 15px;
+ 
+  
+}
+.form h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+.form p {
+  font-size: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(67, 67, 67);
+}
+.form .nameinput{
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
+/* ::placeholder{
+  margin-left: 5pxpx;
+} */
+.form .lastinput{
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+.form .emailinput{
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.form h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.form .dateinput{
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+}
+.form .btn{
+  width: 200px;
+  height: 30px;
+  background-color: rgb(68, 68, 220);
+  margin-left: 20px;
+  margin-top: 35px;
+  color: white;
+  font-weight: bold;
+
+}
